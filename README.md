@@ -9,7 +9,7 @@ Copy `example.env` to `.env` and paste in OpenAI key.
 ```sh
 python3.13 -m venv venv
 source venv/bin/activate
-python -m pip install -U openai python-dotenv jupyter pdf2image
+python -m pip install -U openai python-dotenv jupyter pdf2image numpy faiss-cpu
 
 # Install poppler to work with pdf2image
 
